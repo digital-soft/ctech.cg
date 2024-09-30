@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C-TECH</title>
+    <link rel="icon" href="img/fav.png"> 
+    <link rel="stylesheet" href="css_formation.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo" class="logo"/>
+        <h1 class="titre">INSTITUT C-TECH</h1>
+         
+    </header>
+
+    <nav class="navbar">
+        <div class="navlink">
+            <ul>
+                <li ><a href="acceilctecth.html">Accueil</a></li>
+                <li><a href="formaion.html" class="active">Formation</a></li>
+                <li><a href="universite.html">Université</a></li>
+                <li><a href="admis.html">Admission</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">A-propros</a></li>
+            </ul>
+        </div>
+       <img src="img/bouton_menu.png" alt="bouton_menu" class="bouton"/>
+       <p class="ctech">Congo technologie</p>
+       
+    </nav>
+    
+    <script> /**menu*/
+        const menuHamburger = document.querySelector(".bouton")
+        const navLinks = document.querySelector(".navlink")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+</script>
+
+<a href="#" class="to-top"> 
+    <i class="photo"><img src="img/top.png" alt="fb"/></i>
+  </a>
+
+  <script> const toTop = document.querySelector(".to-top");/*bouton top*/
+
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 100) {
+        toTop.classList.add("active");
+      } else {
+        toTop.classList.remove("active");
+      }
+    })</script>
+
+
+ <!-- *** Debut *** Contenu de la page web à modifier -->   
+<section class="content"> 
+    <h1>FORMATION</h1>
+  
+</section>
+
+      
+
+    <main id="conteneur-article">
+        
+            <div id="article1">
+                <h2>Secteur Numérique</h2>
+                <p><img src="img/nu.jpg" alt="fb"/></p>
+                <ul>
+                    <li>Design Graphic</li>
+                    <li>Community Managment</li>
+                    <li>Developpement Web</li>
+                    <li>Cadrage et montage video</li>
+                    <li>...</li>
+                </ul>
+                <h4>Durée : 06 mois</h4>
+            </div>
+
+
+            <div id="article2">
+                <h2>Secteur Industriel</h2>
+                <p><img src="img/ind.jpg" alt="fb"/></p>
+                <ul>
+                    <li>Electricité et Panneaux Solaires</li>
+                    <li>Maintenace et Reseau Informatique</li>
+                    <li>Qualité Hygiene Sécurité Environnement</li>
+                    
+                    <li>...</li>
+                </ul>
+                <h4>Durée : 06 mois</h4>
+            </div>
+
+            <div id="article3">
+                <h2>Secteur tertiaire</h2>
+                <p><img src="img/secret.png" alt="fb"/></p>
+                <ul>
+                    <li>Assistant comptable</li>
+                    <li>Secretariat Bureautique</li>
+                    <li>Assistant de direction</li>
+                    <li>Caisse et Accueil</li>
+                    <li>Logistique et Gestion de Stock</li>
+                    <li>Commerce International et Transit</li>
+                    <li>Assistant Ressources Humaines</li>
+                    <li>...</li>
+                </ul>
+                <h4>Durée : 06 mois</h4>
+            </div>
+            <div id="article4">
+                <h2>Secteur Sanitaire</h2>
+                <p><img src="img/faq_1.png" alt="fb"/></p>
+                <ul>
+                    <li>Vente en pharmacie</li>
+                    <li>Delegation medicale</li>
+                    <li>...</li>
+                </ul>
+                <h4>Durée : 10 mois</h4>
+            </div>
+
+
+
+
+
+            </div>
+
+           
+          
+        
+    </main>
+    
+
+    
+    <footer>
+        <div class="pied">
+
+            <div id="bloc1"> 
+                <h2>C-TECH</h2>
+                <p>L'Institut Congo-Technologie, en sigle C-Tech, est un établissement privé d’enseignement supérieur 
+                    de type BAC +2 et BAC +3. Elle a pour mission la formation dans le domaine
+                     des sciences Technologique etde gestion en vue de contribuer au développement de la Société et particulièrement du Congo.
+                      Par l'arrêté N°0360/METP-CAB/DGAS/DEPETP, le Ministère de l'Enseignement Supérieur a accordé à C-TECH 
+                      l'agrément définitif
+                </p>
+            </div>
+
+            <div id="bloc2">
+                <h3><em>Contact</em></h3>
+                <p>
+                    Site 1: 22 Rue Likouala poto-poto . Brazzaville,
+                     Republique du Congo <br><br>
+                     Site 2:  233 rue de la libération Plateau OCH Brazzaville,
+                     Republique du Congo <br><br>
+                     TEL : 00242 068 229178 /055 575832<br><br>
+                     Mail : ctech@gmail.com <br><br>
+                     facebook : ctech
+                    
+
+
+
+                </p>
+            </div>
+
+            <div id="bloc3">
+                <ul>
+                    <li> <a href="https://www.facebook.com/ctechbz  ²"> <img src="img/fb.png" alt="fb"/> </a></li>
+                    <li> <a href="lien whatsapp"> <img src="img/mes.png" alt="whatsapp"/> </a></li>
+                    <li> <a href="lien insta"> <img src="img/insta.png" alt="insta"/> </a></li>
+                    <li><a href="tel: +242064898005"> <img src="img/phone_8862752.png" alt="appel"/> </a></li>
+                    <li><a href="mailto: ndeletic@mail.cg"> <img src="img/mail.png" alt="mail"/> </a></li>
+                    
+                </ul>
+            </div>
+
+
+
+        </div>
+    </footer>
+</div>
+
+    <div class="fin"><p>&copy; 2024 C-Tech Congo. Tous droits réservés.</p></div>
+</body>
+</html>
